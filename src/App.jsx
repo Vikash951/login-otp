@@ -35,7 +35,7 @@ function App() {
           <input
             className="border border-black h-10 w-10 m-2 text-center rounded-md"
             key={index}
-            type="text"
+            
             maxLength={1}
             ref = {(input) => (refArr.current[index] = input)}
             onChange = {((e) => handleOnChange(e.target.value , index))}
